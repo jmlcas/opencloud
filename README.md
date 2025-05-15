@@ -11,6 +11,6 @@ NOTA: Cambios en "docker-compose.yaml" para utilizar un subdominio:
 
 Línea 11 - https://tu.dominio.com
 
-Línea 14 - Cambiar "false" por "true"
+Línea 14 - Descomentar y cambiar "false" por "true"
 
-Línea 16 - Descomentar y cambiar "true" por "false"
+Línea 16 - Cambiar "true" por "false"
