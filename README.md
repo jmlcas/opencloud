@@ -7,7 +7,7 @@ Usuario: admin
 Password: admin
 
 ------------------------------------------------------------------
-NOTA: Cambios en "docker-compose.yaml" para utilizar un subdominio:
+NOTA: Cambios en "docker-compose.yaml" para utilizar un subdominio usando Caddy, Nginx Proxy Manager ó Pangolin.
 
 Línea 11 - https://tu.dominio.com
 
