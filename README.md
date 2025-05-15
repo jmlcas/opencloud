@@ -6,7 +6,7 @@ Usuario: admin
 
 Password: admin
 
-
+------------------------------------------------------------------
 NOTA: Cambios en "docker-compose.yaml" para utilizar un subdominio:
 
 Línea 11 - https://tu.dominio.com
