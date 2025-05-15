@@ -2,6 +2,7 @@ services:
 
   opencloud:
     image: opencloudeu/opencloud-rolling:latest
+    container_name: opencloud
     entrypoint:
       - /bin/sh
     command: ["-c", "opencloud init || true; opencloud server"]
@@ -26,7 +27,7 @@ services:
       - "9200:9200"
     logging:
       driver: local
-    restart: always
+    restart: unless-stopped
 
 volumes:
   opencloud-config:
