@@ -1,7 +1,7 @@
 services:
 
   opencloud:
-    image: opencloudeu/opencloud-rolling:latest
+    image: opencloudeu/opencloud:latest
     container_name: opencloud
     entrypoint:
       - /bin/sh
